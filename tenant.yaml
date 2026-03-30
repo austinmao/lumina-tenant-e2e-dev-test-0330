@@ -1,17 +1,15 @@
-# Lumina Tenant Configuration
-# Replace all <PLACEHOLDER> values before deploying.
-name: <TENANT_NAME>
-bot_name: "<BOT_NAME>"
-site_id: <SITE_ID>
-domain: <DOMAIN>
-brand_root: brands/<TENANT_NAME>/
+name: e2e-dev-test-0330
+bot_name: "Lumina"
+site_id: e2e-dev-test-0330
+domain: e2e-dev-test.com
+brand_root: brands/e2e-dev-test-0330/
 operator:
-  name: <OPERATOR_NAME>
+  name: E2E Dev Test 0330
   timezone: America/Denver
   contact: slack:#lumina-bot
-  org: <ORG_NAME>
+  org: E2E Dev Test 0330
 template_version: v1.0.0
-template_remote: https://github.com/<github-org>/lumina-tenant-template
+template_remote: https://github.com/austinmao/lumina-tenant-template
 compatibility:
   gateway_version: "2026.3.13"
   required_soul_sections:
